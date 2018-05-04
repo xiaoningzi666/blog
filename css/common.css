@@ -1,5 +1,8 @@
-body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
-body{background:#fff;color:#333;font-size:12px; margin-top:5px;font-family:"微软雅黑","宋体","Arial Narrow";} 
+html{
+	height: 100%;
+}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;height: 100%; box-sizing: border-box;-moz-box-sizing:border-box;} 
+body{background:#eee;color:#444;font-size:14px; margin-top:5px;font-family:"微软雅黑","宋体","Arial Narrow"; } 
 
 ul,ol{list-style-type:none;} 
 select,input,img,select{vertical-align:middle;} 
@@ -8,3 +11,28 @@ a{text-decoration:none;}
 a:link{color:#009;} 
 a:visited{color:#800080;} 
 a:hover,a:active,a:focus{color:#c00;text-decoration:underline;} 
+
+.login_wrap{
+	height: 100%;
+	padding-top: 200px;
+}
+.login_form{
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid;
+	height: 400px;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+}
+.form-input{
+	display: block;
+    width: 100%;
+    padding:10px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;/*规定背景的绘制区域。border-box|padding-box（）|content-box;*/
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
