@@ -13,7 +13,7 @@ a:link{color:#666;}
 a:visited{color:#126ae4; text-decoration:none;} 
 a:hover,a:active,a:focus{color:#126ae4;text-decoration:none;} 
 .container{
-	width: 1200px;
+	width: 960px;
 	margin: 0 auto;
 	background-color:#fff;
 	overflow-x: hidden;
@@ -163,7 +163,7 @@ a[role="button"],.btn-warning:{
 }
 
 .headerR{
-	width: 1040px;
+	width: 798px;
 	box-sizing: border-box;
 	-moz-box-sizing:border-box;
 	position: relative;
@@ -209,13 +209,13 @@ a[role="button"],.btn-sm{
     border: 1px solid #dee2e6;
 }
 .table th, .table td {
-    padding:15px 0;
+    padding:10px 0;
     vertical-align: middle;
     border-bottom: 1px solid #dee2e6;
 }
 #article-list .edit-btn{
 	cursor: pointer;
-	font-size: 18px!important
+	font-size: 16px!important
 }
 .main-title{
 	border-bottom: 1px solid #dee2e6;
@@ -234,4 +234,22 @@ a[role="button"],.btn-sm{
 }
 .edit-form{
 	margin-top:25px;
+}
+.title-input{
+	display: block;
+	border: 0;
+	border-bottom: 1px solid #dee2e6;
+	padding: 22px 0;
+	text-align: center;
+	width: 100%;
+	font-size: 22px;
+}
+input:-ms-input-placeholder{
+    color: #444;
+    font-family: "Microsoft YaHei"
+}
+
+input::-webkit-input-placeholder{
+    color: #444;
+    font-family: "Microsoft YaHei"
 }
