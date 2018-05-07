@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>文章编辑</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../iconfont/iconfont.css">
+<link rel="stylesheet" href="../editor-iconfont/iconfont.css">
+<link rel="stylesheet" href="../css/editor.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="left headerL">
+				<img src="../img/1.jpg" class="img-elem" >
+			</div>
+			<div class="right headerR">
+				<p class="text-elem"><strong>冰火两重天</strong></p>
+				<p class="text-elem">文章数：239</p>
+				<p class="text-elem text-light">多练，多写，多思考，人生没有彩排...</p>
+				<button type="button" class="btn btn-primary write-btn" id="write-btn"><i class="iconfont icon-edit"></i> 写文章</button>
+			</div>
+			<div class="clear"></div> 
+		</header>
+		<section class="main">
+			<p class="main-title"><strong>文章编辑</strong></p>
+			
+			<form class="edit-form">
+				<div class="form-group">
+					<label>文章标题</label>
+					<input type="text" name="" class="form-input" />
+				</div>
+				<div class="form-group">
+					<label>文章内容</label>
+					<div id="editor" class="editor">
+						<div class="menu">
+							<div class="option">
+								<a href="#" data-role="insertImage"><i class="iconfont icon-img"></i></a>
+								<input type="file" id="img" hidden="hidden" />
+							</div>
+							<div id="test" class="option">
+								<a href="#" data-role='bold'><i class="iconfont icon-bold"></i></a>
+							</div>
+							<div class="option">
+								<a href='#' data-role='italic'><i class="iconfont icon-italic"></i></a>
+							</div>
+							<div class="option">
+								<a href='#' data-role='underline'><i class="iconfont icon-underline"></i></a>
+							</div>
+						</div>
+						<div id="content" class="content" contenteditable="true"></div>
+					</div>
+				</div>
+				<div class="form-group text-right">
+					<button type="button" class="btn btn-primary">提交</button>
+					
+				</div>
+			</form>
+				
+			</div>
+			
+		</section>
+		
+	</div>
+<script src="../js/jquery-3.2.1.min.js" ></script>
+<script src="../js/editor.js" ></script>
+	
+    
+</body>
+</html>
