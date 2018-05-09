@@ -19,6 +19,14 @@
 	min-height: 400px;
 	padding: 10px
 }
+.content p{
+	font-size: 16px!important;
+	margin-bottom: 20px!important;
+	line-height: 1.8!important;
+}
+.content img{
+	margin: 20px 0;
+}
 .editor button:hover {
 	background-color: #2B618E;
 }
