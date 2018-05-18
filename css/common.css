@@ -9,9 +9,7 @@ ul,ol{list-style-type:none;}
 select,input,img,select{vertical-align:middle;} 
 
 a{text-decoration:none;} 
-a:link{color:#666;} 
-a:visited{color:#126ae4; text-decoration:none;} 
-a:hover,a:active,a:focus{color:#126ae4;text-decoration:none;} 
+a:hover,a:active,a:focus{color:#01aad0;text-decoration:none;} 
 .container{
 	width: 960px;
 	margin: 0 auto;
@@ -95,13 +93,14 @@ a[role="button"],.btn{
     font-size: 14px;
     font-weight: 500;
     font-family: inherit;
+    outline: none;
 }
 a[role="button"],.btn-primary{
 	color: #fff;
-	background-color: #126ae4
+	background-color: #01aad0
 }
 a[role="button"],.btn-primary:hover{
-	background-color: #0647a2;
+	background-color: #0094b5;
 	color: #fff;
 }
 a[role="button"],.btn-success{
@@ -136,7 +135,7 @@ a[role="button"],.btn-warning:{
 	font-size:20px; 
 }
 .text-primary{
-	color:#126ae4;
+	color:#01aad0;
 }
 .text-success{
 	color: #5dc800;
@@ -219,7 +218,7 @@ a[role="button"],.btn-sm{
 }
 #article-list .edit-btn{
 	cursor: pointer;
-	font-size: 16px!important
+	font-size: 14px!important
 }
 .main-title{
 	border-bottom: 1px solid #dee2e6;
@@ -228,7 +227,7 @@ a[role="button"],.btn-sm{
 .main-title >strong{
 	display: inline-block;
     padding: 10px 0;
-    border-bottom: 2px solid #126ae4;
+    border-bottom: 2px solid #01aad0;
     font-size: 22px;
 }
 .form-group label{
@@ -248,13 +247,13 @@ a[role="button"],.btn-sm{
 	font-family: "Microsoft YaHei";
 	font-weight: 600
 }
-input:-ms-input-placeholder{
+.title-input:-ms-input-placeholder{
     color: #444;
     font-family: "Microsoft YaHei";
     font-weight:600px;
 }
 
-input::-webkit-input-placeholder{
+.title-input:-webkit-input-placeholder{
     color: #444;
     font-family: "Microsoft YaHei";
     font-weight: 600px;
