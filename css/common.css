@@ -318,3 +318,23 @@ a[role="button"],.btn-sm{
 .home-wrap .list-wrap .list-items li small{
 	float: right;
 }
+.wrap404{
+	padding-top: 10%;
+}
+.con404{
+	width: 500px;
+	margin: 0 auto ;
+	text-align: center;
+
+}
+.con404 p{
+	color: #888;
+	margin-top: 8px;
+	letter-spacing: 0.8px;
+}
+.con404 p:nth-child(2){
+	margin-top: 20px;
+}
+.con404 p:nth-child(3)>a{
+	color: #ff9703;
+}
